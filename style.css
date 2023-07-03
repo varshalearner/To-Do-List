@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif
+    ;
+    box-sizing: border-box;
+    -webkit-tap-highlight-color :transparent;
+}
+body{
+    background: 
+    linear-gradient(127deg, rgba(96, 91, 240, 0.8), rgb(254, 117, 233) 70% );  
+    background-attachment: fixed;
+}
+.container{
+    width: 100vw;
+    height: 100vh;
+    padding: 10px;
+    /* position: relative; */
+}
+.to-do{
+    width: 100%;
+    max-width: 540px;
+    background-color: rgba(255, 255, 255);
+    /* opacity: 0.2; */
+    /* height: 200px; */
+    border-radius: 10px;
+    margin:100px auto 20px;
+    padding: 20px 30px;
+}
+.to-do img{
+    position: relative;
+    top: 5px;
+    width: 30px;
+}
+.row{
+    margin: 10px 0;
+    background-color: #dfe0e4;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 30px;
+}
+#inp{
+    flex:1;
+    border: none;
+    outline: none;
+    background: transparent;
+    padding: 10px 20px;
+    resize: vertical;
+   
+}
+#btn{
+    padding: 16px 50px;
+    border : none;
+    border-radius: 26px;
+    color: white;
+    background-color: rgb(130, 152, 217);
+    cursor: pointer;
+    }
+ul li{
+    list-style: none;
+    font-size: 17x;
+    padding: 12px 8px 12px 50px;
+    cursor: pointer;
+    user-select: none;
+    position : relative;
+
+}
+ul li::before{
+    content: " ";
+    position: absolute;
+    height: 28px;
+    width: 28px;
+    border-radius: 50%;
+    background-size: cover;
+    background-image: url(./images/unchecked.png);
+    background-position: center;
+    top: 7px;
+    left: 8px;
+}
+ul li.checked{
+    text-decoration: line-through;
+    color: grey;
+}
+ul li.checked::before{
+    background-image: url(images/checked.png);
+}
+ul li span{
+    position: absolute;
+    top: 5px;
+    right:0;
+    border-radius: 50%;
+    width: 28px;
+    height: 28px;
+    font-size: 22px;
+    text-align: center;
+}
+ul li span:hover{
+    color: white;
+    background-color: rgb(230, 229, 229);
+}
+p{
+    float: left;
+    font-size: 10px;
+    display: inline;
+    font-weight: bolder;
+    border-radius: 20px;
+    background: rgba(255, 255, 255, 0.19);
+    padding: 10px 15px;
+    color: white;
+    border:2px solid rgba(255, 255, 255, 0.134);
+    /* position: absolute; */
+    /* bottom: 0; */
+    /* margin-bottom: 20px; */
+}
