@@ -8,7 +8,8 @@ This is a simple web-based to-do list application built using HTML, CSS, and Jav
 - Persist data in the browser's local storage
 
 ## Getting Started
-To use the to-do list application, click [here](https://varshalearner.github.io/to_do_list/) .
+To use the to-do list application, click [here](https://varshalearner.github.io/to_do_list/) . 
+Click on details then visit this site. 
 
 ## Usage
 - Enter a task in the input field and click the "Add" button to add it to the to-do list.
