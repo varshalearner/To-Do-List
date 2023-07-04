@@ -7,7 +7,7 @@ This is a simple web-based to-do list application built using HTML, CSS, and Jav
 - Remove tasks from the list
 - Persist data in the browser's local storage
 
-##Getting Started
+## Getting Started
 To use the to-do list application, click [here](https://varshalearner.github.io/to_do_list/) .
 
 ## Usage
